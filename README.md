@@ -1,2 +1,2 @@
 # SWUEFT
-SWUEFT - a attempt at creating a fully responsive web page for a small business
+SWUEFT ( in development ) - an attempt at creating my first fully responsive web page designed for a software selling company
