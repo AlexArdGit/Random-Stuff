@@ -167,20 +167,7 @@ h1 {
   transition: 0.7s all ease-in;
 }
 
-.loadpage {
-  opacity: 1;
-}
 
-.cards-container {
-
-  margin-top: 7em;
-  width: 80%;
-  height: 80%;
-  display: flex;
-  flex-flow: column;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
 
  
 }
