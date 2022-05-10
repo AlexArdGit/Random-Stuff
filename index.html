@@ -7,59 +7,69 @@
     <script src="https://kit.fontawesome.com/a21295c95a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-    <script src="./script.js" async></script>
-    <link rel="icon" href="images/test.png">
-    <title>SWUEFT</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- <link rel="icon" href="images/test.png"> -->
+    <title>CSS Animation</title>
 </head>
 
 <body>
-    <div id="home" class="pointer"></div>
-    <div class="cover">
-       
-        <header>
-            <img class="logo" src="images/logo.png" alt="">
-            <nav>
-                <ul class="nav-buttons">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contacts</a></li>
-                </ul>
-            </nav>
-
-            <!-- Home Section -->
-
-
-        </header>
-        <div class="image1">
-            <ul>
-                <li class="image-parallax nr1" data-rate="-2" data-direction="vertical"><img src="images/swueft-top.png"
-                        alt=""></li>
-                <li class="image-parallax nr2" data-rate="2" data-direction="vertical"><img
-                        src="images/swueft-bottom.png" alt=""></li>
+    <nav class="navbar  navbar-expand-lg fixed-top navbar-dark" style="background-color: rgba(49, 49, 49, 0.808);">
+        <a class="navbar-brand" href="#">Alex</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse d-sm-flex justify-content-end navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacts</a>
+                </li>
             </ul>
         </div>
-        <div class="hero">
-            <div class="line"></div>
-            <h1>''AAT - Cool Arrow''</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                Quisquam tempore error sunt iure veniam amet dolores suscipit <br>
-                sint ex, dignissimos temporibus expedita iusto ducimus vitae. <br>
-                Rem illum excepturi aliquid repudiandae!</p>
-            <button class="home-button">Button</button>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                Quisquam tempore error sunt iure veniam amet dolores suscipit <br>
-                sint ex, dignissimos temporibus expedita iusto ducimus vitae. <br>
-                Rem illum excepturi aliquid repudiandae!</p>
-            <div class="line2"></div>
-        </div>
-        <!-- Projects Section -->
+    </nav>
+    <div class="imageContainer">
+        <ul>
+            <li class="image-parallax nr1" data-rate="-2" data-direction="vertical"><img src="images/swueft-top.png"
+                    alt=""></li>
+            <li class="image-parallax nr2" data-rate="2" data-direction="vertical"><img src="images/swueft-bottom.png"
+                    alt=""></li>
+        </ul>
+    </div>
+    <div class="hero">
+        <div class="line"></div>
+        <h1>''AAT - Cool Arrow''</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Quisquam tempore error sunt iure veniam amet dolores suscipit <br>
+            sint ex, dignissimos temporibus expedita iusto ducimus vitae. <br>
+            Rem illum excepturi aliquid repudiandae!</p>
+        <button class="home-button">Button</button>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Quisquam tempore error sunt iure veniam amet dolores suscipit <br>
+            sint ex, dignissimos temporibus expedita iusto ducimus vitae. <br>
+            Rem illum excepturi aliquid repudiandae!</p>
+        <div class="line2"></div>
         <div class="projects">
             <div id="projects" class="pointer1"></div>
-          
-                
-
+            <!-- <video class="video-bg" autoplay muted loop>
+                    <source src="images/Video.mp4 "video></video> -->
         </div>
+    </div>
+    <!-- Projects Section -->
+
 </body>
+<script src="./script.js" async></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </html>
